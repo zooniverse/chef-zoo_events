@@ -1,0 +1,61 @@
+{
+  "sources": {
+    "zoo-events": {
+      "path": "."
+    },
+    "zoo-base": {
+      "path": "../zoo-base"
+    },
+    "monit": {
+      "locked_version": "1.5.2",
+      "git": "git://github.com/phlipper/chef-monit.git",
+      "ref": "23756d508f8c10b8687213e0f9a3f4ae47f836ac"
+    },
+    "hostname": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/edpaget/chef-cookbook-hostname.git",
+      "ref": "15ef79307c4294912c2f6b119327f75be0990b4d"
+    },
+    "clojure_web": {
+      "path": "../chef-clojure_web"
+    },
+    "nginx-zoo": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/zooniverse/nginx-zoo.git",
+      "ref": "eeb43b271fce24adcef0696614530834d1d30205"
+    },
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "hostsfile": {
+      "locked_version": "2.4.4"
+    },
+    "java": {
+      "locked_version": "1.20.0"
+    },
+    "nginx": {
+      "locked_version": "2.2.0"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.10.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum": {
+      "locked_version": "3.0.4"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    }
+  }
+}

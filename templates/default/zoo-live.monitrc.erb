@@ -1,0 +1,5 @@
+check process <%= @app_name %> with pidfile <%= @install_dir %>/<%= @app_name %>.pid
+  start program = "/usr/sbin/service <%= @app_name %> start"
+  stop program = "/usr/sbin/service <%= @app_name %> stop"
+  if failed port 8080 then restart
+  if 5 restarts within 5 cycles then timeout
